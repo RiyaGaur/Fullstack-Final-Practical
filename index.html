@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="header">
+        <!-- <a href="#"><img src="data:image/png;base64,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" alt=""></a> -->
+        <a href="#"><i class="fa fa-amazon" aria-hidden="true" style="margin: 20px; margin-right: 0px; color: red;"></i>ngles</a>
+        <ul class="menu">
+            
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Services </a></li>
+            <li><a href="#"> Work </a></li>
+            <li><a href="#"> Pages </a></li>
+            <li><a href="#"> Blog </a></li>
+            <li><a href="#"> Contact </a></li>
+            <li><a href="#"> <i class="fa fa-search fa-lg" aria-hidden="true"></i> </a></li>
+            <li><a href="#" class="bars"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i> </a></li>
+        </ul>
+    </div>
+
+
+    <div class="main">
+        <div class="row">
+        <div class="card col-lg-3" style="width: 18rem;">
+            <img src="https://images.pond5.com/tracking-shot-male-runner-running-footage-108000619_prevstill.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Mar 20, 2017</p>
+                <hr style="width:30%;text-align:left;margin-left:0;color: blue;">
+              <h5 class="card-title">Presentation in Office</h5>
+              <p class="card-text" style="color: black; opacity: 0.7;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <hr>
+              <p style="opacity: 0.5; color: black;"><i class="fa fa-user" aria-hidden="true"></i> By Gen Maxwell    <span style="float: right;">08</span>  <i class="fa fa-comments-o" aria-hidden="true" style="float: right;"></i></p>
+            </div>
+          </div>
+          <div class="card col-lg-3" style="width: 18rem;">
+            <img src="https://s18798.pcdn.co/dispatch/wp-content/uploads/sites/8960/2019/03/iStock-610259354.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Mar 20, 2017</p>
+                <hr style="width:30%;text-align:left;margin-left:0">
+              <h5 class="card-title">Presentation in Office</h5>
+              <p class="card-text" style="color: black; opacity: 0.7;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <hr>
+              <p style="opacity: 0.5; color: black;"><i class="fa fa-user" aria-hidden="true"></i> By Gen Maxwell    <span style="float: right;">08</span>  <i class="fa fa-comments-o" aria-hidden="true" style="float: right;"></i></p>
+            </div>
+          </div>
+          <div class="card col-lg-3" style="width: 18rem;">
+            <img src="https://media.npr.org/assets/img/2020/02/20/friendship-1_custom-7ac296535e581ded256a9c640d8d44f194e39d7e-s800-c85.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Mar 20, 2017</p>
+                <hr style="width:30%;text-align:left;margin-left:0">
+              <h5 class="card-title">Presentation in Office</h5>
+              <p class="card-text" style="color: black; opacity: 0.7;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <hr>
+              <p style="opacity: 0.5; color: black;"><i class="fa fa-user" aria-hidden="true"></i> By Gen Maxwell    <span style="float: right;">08</span>  <i class="fa fa-comments-o" aria-hidden="true" style="float: right;"></i></p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+    <div class="button">
+        <button type="button" class="btn btn-primary">VIEW ALL</button>
+    </div>
+</body>
+</html>
